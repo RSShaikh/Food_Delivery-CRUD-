@@ -1,0 +1,6 @@
+package com.project.food_delivery.dao;
+
+public interface CartDao {
+	
+
+}
