@@ -58,9 +58,9 @@ Update DB credentials in DAO classes
 
 Use console menu to interact with the system
 
-📄 License
+##License
 This project is open-source and free to use for learning and portfolio purposes.
 
-🙋‍♀️ Author
+##Author
 Rukhsar Shaikh  
 Mumbai, India
