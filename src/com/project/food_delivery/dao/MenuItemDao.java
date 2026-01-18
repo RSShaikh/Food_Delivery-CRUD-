@@ -6,14 +6,11 @@ import com.project.food_delivery.models.MenuItem;
 
 public interface MenuItemDao {
 	
-	void addMenuItem(MenuItem item);
-
-    MenuItem getMenuItemById(int itemId);
-
-    List<MenuItem> getMenuItemsByRestaurant(int restaurantId);
-
-    void updateMenuItem(MenuItem item);
-
-    void deleteMenuItem(int itemId);
+	boolean addMenuItem(MenuItem item); 
+	boolean updateMenuItem(MenuItem item); 
+	boolean deleteMenuItemById(int id); 
+	MenuItem getMenuItemById(int id); 
+	List<MenuItem> getMenuItemsByRestaurant(int restaurantId); 
+	List<MenuItem> getAllMenuItems();
 
 }
